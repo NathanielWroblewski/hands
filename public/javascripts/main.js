@@ -79,6 +79,7 @@ const huddleBreakStep = () => {
 
   if (huddle.length > 150) {
     huddle = []
+    paused = []
 
     clear({ element: huddlehands })
     clear({ element: huddleballs })
