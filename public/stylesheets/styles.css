@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  width:  100%;
+  padding: 0;
+  margin:  0;
+  background-color: #fff;
+  color: #666;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 400px;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 5px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-top: 0px;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.canvas-container {
+  position: relative;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.canvas-container canvas {
+  position: absolute;
+}
+
+.balls {
+  background-color: #eee;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
